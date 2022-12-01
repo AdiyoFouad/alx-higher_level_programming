@@ -10,19 +10,17 @@ if __name__ = "__main__":
         exit(1)
     else :
         op = sys.argv[2];
-        op_l = ['+', '-', '*', '/']
-        if not op in op_l:
+        a = int(sys.argv[1])
+        b = int(sys.argv[3])
+        if op == '+':
+            print("{} + {} = {}".format(a, b, (add(a, b))))
+        if op == '-':
+            print("{} - {} = {}".format(a, b, (sub(a, b))))
+        if op == '*':
+            print("{} * {} = {}".format(a, b, (mul(a, b))))
+        if op == '/':
+            print("{} / {} = {}".format(a, b, (div(a, b))))
+          else:
             print("Unknown operator. Available operators: +, -, * and /")
             exit(1)
-        else:
-            a = int(sys.argv[1])
-            b = int(sys.argv[3])
-            if op == '+':
-                print(("{} + {} = {}").format(a, b, (add(a, b))))
-            if op == '-':
-                print(("{} - {} = {}").format(a, b, (sub(a, b))))
-            if op == '*':
-                print(("{} * {} = {}").format(a, b, (mul(a, b))))
-            if op == '/':
-                print(("{} / {} = {}").format(a, b, (div(a, b))))
-            exit(0)
+        exit(0)
