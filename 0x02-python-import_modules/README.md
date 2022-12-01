@@ -2,8 +2,8 @@
 ===============================
 
 -   By Guillaume
--   Ongoing project - started 11-18-2021, must end by 11-19-2021 (in about 4 hours) - you're done with 0% of tasks.
--   Checker was released at 11-18-2021 12:00 PM
+-   Ongoing project - started Dec 1, 2022 4:00 AM, must end by Dec 2, 2022 4:00 AM
+-   Checker was released at Dec 1, 2022 4:00 AM 10:00 AM
 -   QA review fully automated.
 
 Resources
@@ -550,4 +550,4 @@ guillaume@ubuntu:~/0x02$
 
  Done? Help Check your code Get a sandbox
 
-Copyright © 2021 Holberton Inc, All rights reserved.
+Copyright © 2022 Holberton Inc, All rights reserved.
