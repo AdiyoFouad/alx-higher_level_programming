@@ -3,7 +3,7 @@
 
 -   By Guillaume
 -   Ongoing project - started Dec 1, 2022 4:00 AM, must end by Dec 2, 2022 4:00 AM
--   Checker was released at Dec 1, 2022 4:00 AM 10:00 AM
+-   Checker was released at Dec 1, 2022 10:00 AM
 -   QA review fully automated.
 
 Resources
