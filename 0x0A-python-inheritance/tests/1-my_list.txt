@@ -1,13 +1,16 @@
+# 1-my_list.txt
+# Brennan D Baraban <375@holbertonschool.com>
+
 =======================
 How to Use 1-my_list.py
 =======================
 
-This module defines a class `MyList` that inherits from `list`.
+This module defines a class ``MyList`` that inherits from ``list``.
 
 Instantiation
 =============
 
-`MyList` can be instantiated with no arguments, which will return
+``MyList`` can be instantiated with no arguments, which will return
 an empty list:
 
 ::
@@ -37,7 +40,7 @@ Or a single argument, which must be an iterable object.
     TypeError: 'NoneType' object is not iterable
 
 
-A `TypeError` will be raised for any more than one instantiation arguments.
+A ``TypeError`` will be raised for any more than one instantiation arguments.
 
 ::
 
@@ -48,8 +51,8 @@ A `TypeError` will be raised for any more than one instantiation arguments.
 Usage
 =====
 
-`MyList` is an inherited `list` class, and thus features the same methods.
-For instance, elements can be added to a `MyList` with the `append()` method.
+``MyList`` is an inherited ``list`` class, and thus features the same methods.
+For instance, elements can be added to a ``MyList`` with the ``append()`` method.
 
 ::
 
@@ -68,7 +71,7 @@ Replaced with indexing:
     >>> print(my_list)
     [5, 2, 3]
 
-And removed with the `remove()` method.
+And removed with the ``remove()`` method.
 
 ::
 
@@ -78,11 +81,11 @@ And removed with the `remove()` method.
 
 See the documentation on Python lists for more built-in methods.
 
-`print_sorted` Method
+``print_sorted`` Method
 =======================
 
-`MyList` implements a single method - a public instance method
-`print_sorted(self)`.
+``MyList`` implements a single method - a public instance method
+``print_sorted(self)``.
 
 ::
 
@@ -156,7 +159,7 @@ Nothing to sort with empty lists.
     >>> my_list.print_sorted()
     []
 
-If `print_sorted(...)` is called on a list of different types, a TypeError
+If ``print_sorted(...)`` is called on a list of different types, a TypeError
 will be raised.
 
 ::
