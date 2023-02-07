@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Author: Babatunde Olaniyi
+# Author: ODJOUOYE Fouad
 
 """Define classes for a singly-linked list."""
 

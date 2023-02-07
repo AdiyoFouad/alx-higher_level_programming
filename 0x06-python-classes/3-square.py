@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Author: Martins Akhivbareme
+# Author: ODJOUOYE Fouad
 
 """Define a class Square."""
 
